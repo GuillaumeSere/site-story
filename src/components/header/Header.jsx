@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
+import { Player } from '@lottiefiles/react-lottie-player'
 import logo from './97525-code-dark.json'
 
 const Header = () => {
