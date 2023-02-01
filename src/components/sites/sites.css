@@ -38,7 +38,7 @@
     height: 50px;
     margin-left: 2rem;
 }
-.card-image a{
+.card-image .card-link{
     text-decoration: none;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.555);
@@ -54,10 +54,10 @@
     border-radius: 10px;
     margin-top: 1rem;
 }
-.card-image a:hover{
+.card-image .card-link:hover{
     background: rgba(255, 255, 255, 0.469);
     color:black;
-    border: none;
+    border: 1px solid transparent;
 }
 .card-qr{
     display: flex;

@@ -55,6 +55,7 @@ const data = [
         image: IMG1,
         title: 'Fitness-exercices',
         demo: 'https://guillaumesere.github.io/fitness-exercices/',
+        git: 'https://github.com/GuillaumeSere/fitness-exercices',
         qr: QR1
     },
     {
@@ -62,6 +63,7 @@ const data = [
         image: IMG2,
         title: 'API-Crypto',
         demo: 'https://guillaumesere.github.io/api-crypto/',
+        git: 'https://github.com/GuillaumeSere/api-crypto',
         qr: QR2
     },
     {
@@ -69,6 +71,7 @@ const data = [
         image: IMG3,
         title: 'NFT-React',
         demo: 'https://guillaumesere.github.io/nft-react/',
+        git: 'https://github.com/GuillaumeSere/nft-react',
         qr: QR3
     },
     {
@@ -76,6 +79,7 @@ const data = [
         image: IMG4,
         title: 'Google-Book-API',
         demo: 'https://guillaumesere.github.io/google-book-api/',
+        git: 'https://github.com/GuillaumeSere/google-book-api',
         qr: QR4
     },
     {
@@ -83,6 +87,7 @@ const data = [
         image: IMG5,
         title: 'Digital-Clock',
         demo: 'https://guillaumesere.github.io/DIGITAL-CLOCK/',
+        git: 'https://github.com/GuillaumeSere/DIGITAL-CLOCK',
         qr: QR5
     },
     {
@@ -90,6 +95,7 @@ const data = [
         image: IMG6,
         title: 'Sport-See',
         demo: 'https://guillaumesere.github.io/guillaumesere_12_06042022/',
+        git: 'https://github.com/GuillaumeSere/guillaumesere_12_06042022',
         qr: QR6
     },
     {
@@ -97,6 +103,7 @@ const data = [
         image: IMG7,
         title: 'Fisheye',
         demo: 'https://guillaumesere.github.io/GuillaumeSere_P6_26102021/',
+        git: 'https://github.com/GuillaumeSere/GuillaumeSere_P6_26102021',
         qr: QR7
     },
     {
@@ -104,6 +111,7 @@ const data = [
         image: IMG8,
         title: 'Ohmyfood',
         demo: 'https://guillaumesere.github.io/GuillaumeSere_03_24092021.github.io/',
+        git: 'https://github.com/GuillaumeSere/GuillaumeSere_03_24092021.github.io',
         qr: QR8
     },
     {
@@ -111,6 +119,7 @@ const data = [
         image: IMG9,
         title: 'Wealth-Health',
         demo: 'https://guillaumesere.github.io/wealth-health/',
+        git: 'https://github.com/GuillaumeSere/wealth-health',
         qr: QR9
     },
     {
@@ -118,6 +127,7 @@ const data = [
         image: IMG10,
         title: 'Kasa',
         demo: 'https://guillaumesere.github.io/guillaumesere_11_28032022/',
+        git: 'https://github.com/GuillaumeSere/guillaumesere_11_28032022',
         qr: QR10
     },
     {
@@ -125,6 +135,7 @@ const data = [
         image: IMG11,
         title: 'Les petits plats',
         demo: 'https://guillaumesere.github.io/GuillaumeSere_P7_21122021/',
+        git: 'https://github.com/GuillaumeSere/GuillaumeSere_P7_21122021',
         qr: QR11
     },
     {
@@ -132,6 +143,7 @@ const data = [
         image: IMG12,
         title: 'Réservia',
         demo: 'https://guillaumesere.github.io/GuillaumeSere_2_07092021/',
+        git: 'https://github.com/GuillaumeSere/GuillaumeSere_2_07092021',
         qr: QR12
     },
     {
@@ -139,6 +151,7 @@ const data = [
         image: IMG13,
         title: 'Portfolio',
         demo: 'https://guillaumesere.github.io/guillaume-portfolio/',
+        git: 'https://github.com/GuillaumeSere/guillaume-portfolio',
         qr: QR13
     },
     {
@@ -146,6 +159,7 @@ const data = [
         image: IMG14,
         title: 'GSL',
         demo: 'https://guillaumesere.github.io/google-maps-travel/',
+        git: 'https://github.com/GuillaumeSere/google-maps-travel',
         qr: QR14
     },
     {
@@ -153,6 +167,7 @@ const data = [
         image: IMG15,
         title: 'Todo-List',
         demo: 'https://guillaumesere.github.io/todo-list/',
+        git: 'https://github.com/GuillaumeSere/todo-list',
         qr: QR15
     },
     {
@@ -160,6 +175,7 @@ const data = [
         image: IMG16,
         title: 'Nasa-Media',
         demo: 'https://guillaumesere.github.io/nasa-media/',
+        git: 'https://github.com/GuillaumeSere/nasa-media',
         qr: QR16
     },
     {
@@ -167,6 +183,7 @@ const data = [
         image: IMG17,
         title: 'Giphy-Animation',
         demo: 'https://guillaumesere.github.io/giphy-animation/',
+        git: 'https://github.com/GuillaumeSere/giphy-animation',
         qr: QR17
     },
     {
@@ -174,6 +191,7 @@ const data = [
         image: IMG18,
         title: 'APP-SNCF',
         demo: 'https://guillaumesere.github.io/api-sncf/',
+        git: 'https://github.com/GuillaumeSere/api-sncf',
         qr: QR18
     },
     {
@@ -181,6 +199,7 @@ const data = [
         image: IMG19,
         title: 'Live-Radio',
         demo: 'https://guillaumesere.github.io/radio-browser/',
+        git: 'https://github.com/GuillaumeSere/radio-browser',
         qr: QR19
     },
     {
@@ -188,6 +207,7 @@ const data = [
         image: IMG20,
         title: 'APP-Yoga',
         demo: 'https://guillaumesere.github.io/APP-yoga/',
+        git: 'https://github.com/GuillaumeSere/APP-yoga',
         qr: QR20
     },
     {
@@ -195,6 +215,7 @@ const data = [
         image: IMG21,
         title: 'Booking-React',
         demo: 'https://guillaumesere.github.io/booking-react/',
+        git: 'https://github.com/GuillaumeSere/booking-react',
         qr: QR21
     },
     {
@@ -202,6 +223,7 @@ const data = [
         image: IMG22,
         title: 'Meteo-React',
         demo: 'https://guillaumesere.github.io/meteo-react/',
+        git: 'https://github.com/GuillaumeSere/meteo-react',
         qr: QR22
     },
     {
@@ -209,6 +231,7 @@ const data = [
         image: IMG23,
         title: 'React-Movies',
         demo: 'https://guillaumesere.github.io/react-movies/',
+        git: 'https://github.com/GuillaumeSere/react-movies',
         qr: QR23
     },
     {
@@ -216,6 +239,7 @@ const data = [
         image: IMG24,
         title: 'Recette-Api',
         demo: 'https://guillaumesere.github.io/recettes-api/',
+        git: 'https://github.com/GuillaumeSere/recettes-api',
         qr: QR24
     },
 ];
