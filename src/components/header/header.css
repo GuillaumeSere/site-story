@@ -16,6 +16,9 @@
     right: 45%;
     font-family: "Architects Daughter", cursive;
 }
+.header-mobile{
+    display: none;
+}
 .bar{
     width: 290px;
     border: 2px solid white;
@@ -43,5 +46,16 @@
     }
     .animation-left{
         left:0;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .header-mobile{
+        display:flex;
+        justify-content: space-between;
+        margin: 0rem 1rem 0rem 1rem;
+        align-items: center;
+        font-family: "Architects Daughter", cursive;
+        font-size: 18px;
     }
 }

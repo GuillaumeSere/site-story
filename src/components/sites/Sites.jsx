@@ -8,7 +8,7 @@ const Sites = () => {
     return (
         <div className='container'>
             {
-                data.map(({ id, image, title, demo,git, qr }) => {
+                data.map(({ id, image, title, demo, git, qr }) => {
                     return (
                         <div className="card" key={id}>
                             <div className="card-image">
