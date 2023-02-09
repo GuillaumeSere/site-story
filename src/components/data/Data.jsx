@@ -22,6 +22,10 @@ import IMG21 from '../../images/21.png'
 import IMG22 from '../../images/22.png'
 import IMG23 from '../../images/23.png'
 import IMG24 from '../../images/24.png'
+import IMG25 from '../../images/25.png'
+import IMG26 from '../../images/26.png'
+import IMG27 from '../../images/27.png'
+import IMG28 from '../../images/28.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -47,6 +51,10 @@ import QR21 from '../../images/QRcode booking-react.png'
 import QR22 from '../../images/QRcode Meteo-react.png'
 import QR23 from '../../images/QRcode react-movies.png'
 import QR24 from '../../images/QRcode recette-api.png'
+import QR25 from '../../images/QRcode Pokemon-app.png'
+import QR26 from '../../images/QRcode calculateur-masse-corporelle.png'
+import QR27 from '../../images/QRcode Photo-gallery.png'
+import QR28 from '../../images/QRcode English dictionary.png'
 
 
 const data = [
@@ -241,6 +249,38 @@ const data = [
         demo: 'https://guillaumesere.github.io/recettes-api/',
         git: 'https://github.com/GuillaumeSere/recettes-api',
         qr: QR24
+    },
+    {
+        id: 25,
+        image: IMG25,
+        title: 'Pokemon-APP',
+        demo: 'https://guillaumesere.github.io/pokemon-app/',
+        git: 'https://github.com/GuillaumeSere/pokemon-app',
+        qr: QR25
+    },
+    {
+        id: 26,
+        image: IMG26,
+        title: 'Calculateur IMC',
+        demo: 'https://guillaumesere.github.io/Calculateur-Masse-Corporelle/',
+        git: 'https://github.com/GuillaumeSere/Calculateur-Masse-Corporelle',
+        qr: QR26
+    },
+    {
+        id: 27,
+        image: IMG27,
+        title: 'Photo  Gallery',
+        demo: 'https://guillaumesere.github.io/Photo-Gallery-API/',
+        git: 'https://github.com/GuillaumeSere/Photo-Gallery-API',
+        qr: QR27
+    },
+    {
+        id: 28,
+        image: IMG28,
+        title: 'English Dictionary',
+        demo: 'https://guillaumesere.github.io/english-dictionary/',
+        git: 'https://github.com/GuillaumeSere/english-dictionary',
+        qr: QR28
     },
 ];
 
