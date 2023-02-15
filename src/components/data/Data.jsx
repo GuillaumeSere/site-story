@@ -26,6 +26,8 @@ import IMG25 from '../../images/25.png'
 import IMG26 from '../../images/26.png'
 import IMG27 from '../../images/27.png'
 import IMG28 from '../../images/28.png'
+import IMG29 from '../../images/29.png'
+import IMG30 from '../../images/30.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -55,6 +57,8 @@ import QR25 from '../../images/QRcode Pokemon-app.png'
 import QR26 from '../../images/QRcode calculateur-masse-corporelle.png'
 import QR27 from '../../images/QRcode Photo-gallery.png'
 import QR28 from '../../images/QRcode English dictionary.png'
+import QR29 from '../../images/QRcode GSL-Search.png'
+import QR30 from '../../images/QRcode Candy Crush.png'
 
 
 const data = [
@@ -281,6 +285,22 @@ const data = [
         demo: 'https://guillaumesere.github.io/english-dictionary/',
         git: 'https://github.com/GuillaumeSere/english-dictionary',
         qr: QR28
+    },
+    {
+        id: 29,
+        image: IMG29,
+        title: 'GSL-Search',
+        demo: 'https://guillaumesere.github.io/GSL-Search/',
+        git: 'https://github.com/GuillaumeSere/GSL-Search',
+        qr: QR29
+    },
+    {
+        id: 30,
+        image: IMG30,
+        title: 'Candy Crush',
+        demo: 'https://guillaumesere.github.io/candy-crush/',
+        git: 'https://github.com/GuillaumeSere/candy-crush',
+        qr: QR30
     },
 ];
 
