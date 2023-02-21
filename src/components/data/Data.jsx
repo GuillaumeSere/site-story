@@ -28,6 +28,8 @@ import IMG27 from '../../images/27.png'
 import IMG28 from '../../images/28.png'
 import IMG29 from '../../images/29.png'
 import IMG30 from '../../images/30.png'
+import IMG31 from '../../images/31.png'
+import IMG32 from '../../images/32.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -59,6 +61,8 @@ import QR27 from '../../images/QRcode Photo-gallery.png'
 import QR28 from '../../images/QRcode English dictionary.png'
 import QR29 from '../../images/QRcode GSL-Search.png'
 import QR30 from '../../images/QRcode Candy Crush.png'
+import QR31 from '../../images/QRcode react-tetris.png'
+import QR32 from '../../images/QRcode 2048-react.png'
 
 
 const data = [
@@ -301,6 +305,22 @@ const data = [
         demo: 'https://guillaumesere.github.io/candy-crush/',
         git: 'https://github.com/GuillaumeSere/candy-crush',
         qr: QR30
+    },
+    {
+        id: 31,
+        image: IMG31,
+        title: 'Tetris',
+        demo: 'https://guillaumesere.github.io/react-tetris/',
+        git: 'https://github.com/GuillaumeSere/react-tetris',
+        qr: QR31
+    },
+    {
+        id: 32,
+        image: IMG32,
+        title: 'Jeux 2048',
+        demo: 'https://guillaumesere.github.io/2048-react/',
+        git: 'https://github.com/GuillaumeSere/2048-react',
+        qr: QR32
     },
 ];
 
