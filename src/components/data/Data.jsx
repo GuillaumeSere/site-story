@@ -30,6 +30,8 @@ import IMG29 from '../../images/29.png'
 import IMG30 from '../../images/30.png'
 import IMG31 from '../../images/31.png'
 import IMG32 from '../../images/32.png'
+import IMG33 from '../../images/33.png'
+import IMG34 from '../../images/34.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -63,6 +65,8 @@ import QR29 from '../../images/QRcode GSL-Search.png'
 import QR30 from '../../images/QRcode Candy Crush.png'
 import QR31 from '../../images/QRcode react-tetris.png'
 import QR32 from '../../images/QRcode 2048-react.png'
+import QR33 from '../../images/QRcode Card Game.png'
+import QR34 from '../../images/QRcode Effect-image.png'
 
 
 const data = [
@@ -321,6 +325,22 @@ const data = [
         demo: 'https://guillaumesere.github.io/2048-react/',
         git: 'https://github.com/GuillaumeSere/2048-react',
         qr: QR32
+    },
+    {
+        id: 33,
+        image: IMG33,
+        title: 'Card Game',
+        demo: 'https://guillaumesere.github.io/Card-Game/',
+        git: 'https://github.com/GuillaumeSere/Card-Game',
+        qr: QR33
+    },
+    {
+        id: 34,
+        image: IMG34,
+        title: 'Effect Image',
+        demo: 'https://guillaumesere.github.io/effect-image/',
+        git: 'https://github.com/GuillaumeSere/effect-image',
+        qr: QR34
     },
 ];
 
