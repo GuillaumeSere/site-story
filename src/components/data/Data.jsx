@@ -339,7 +339,7 @@ const data = [
         image: IMG34,
         title: 'Effect Image',
         demo: 'https://guillaumesere.github.io/effect-image/',
-        git: 'https://github.com/GuillaumeSere/effect-image',
+        git: 'https://github.com/GuillaumeSere/effect-imag',
         qr: QR34
     },
 ];
