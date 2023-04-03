@@ -7,6 +7,7 @@
     align-items: center;
     color: white;
     box-shadow: 10px 20px 15px rgba(0,0,0,0.25);
+    border-bottom: 1px solid white;
 }
 .header-title{
     font-size: 28px;
