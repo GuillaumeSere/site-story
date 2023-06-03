@@ -32,6 +32,10 @@ import IMG31 from '../../images/31.png'
 import IMG32 from '../../images/32.png'
 import IMG33 from '../../images/33.png'
 import IMG34 from '../../images/34.png'
+import IMG35 from '../../images/35.png'
+import IMG36 from '../../images/36.png'
+import IMG37 from '../../images/37.png'
+import IMG38 from '../../images/38.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -67,6 +71,10 @@ import QR31 from '../../images/QRcode react-tetris.png'
 import QR32 from '../../images/QRcode 2048-react.png'
 import QR33 from '../../images/QRcode Card Game.png'
 import QR34 from '../../images/QRcode Effect-image.png'
+import QR35 from '../../images/QRcode Generate Password.png'
+import QR36 from '../../images/QRcode convertisseur-Devise.png'
+import QR37 from '../../images/QRcode Puissance-4.png'
+import QR38 from '../../images/QRcode React-country.png'
 
 
 const data = [
@@ -341,6 +349,38 @@ const data = [
         demo: 'https://guillaumesere.github.io/effect-image/',
         git: 'https://github.com/GuillaumeSere/effect-image',
         qr: QR34
+    },
+    {
+        id: 35,
+        image: IMG35,
+        title: 'Generate Password',
+        demo: 'https://guillaumesere.github.io/generate-password/',
+        git: 'https://github.com/GuillaumeSere/generate-password',
+        qr: QR35
+    },
+    {
+        id: 36,
+        image: IMG36,
+        title: 'Convertisseur Devise',
+        demo: 'https://guillaumesere.github.io/convertisseur-devise/',
+        git: 'https://github.com/GuillaumeSere/convertisseur-devise',
+        qr: QR36
+    },
+    {
+        id: 37,
+        image: IMG37,
+        title: 'Puissance 4',
+        demo: 'https://guillaumesere.github.io/connect-four/',
+        git: 'https://github.com/GuillaumeSere/connect-four',
+        qr: QR37
+    },
+    {
+        id: 38,
+        image: IMG38,
+        title: 'React-Country',
+        demo: 'https://guillaumesere.github.io/rest-countries-api/',
+        git: 'https://github.com/GuillaumeSere/rest-countries-api',
+        qr: QR38
     },
 ];
 
