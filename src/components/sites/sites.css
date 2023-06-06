@@ -37,7 +37,19 @@
     width: 50px;
     height: 50px;
     margin-left: 2rem;
+    animation: slideArrow 5s infinite;
 }
+@keyframes slideArrow {
+    0% {
+      transform:  translateX(-50%);
+    }
+    50% {
+      transform:  translateX(50%);
+    }
+    100% {
+      transform:  translateX(-50%);
+    }
+  }
 .card-image .card-link{
     text-decoration: none;
     color: white;
