@@ -31,10 +31,13 @@
 
 @media (max-width: 900px){
     .animation-left{
-        position: absolute;
-        right: 0;
-        margin-top: -.7rem !important;
-        top: 0;
+        display: none;
+    }
+    .header-title{
+       left: 1rem;
+    }
+    .bar{
+        left: 1rem;
     }
 }
 
