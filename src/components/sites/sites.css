@@ -72,6 +72,29 @@
     letter-spacing: 2px;
     display: flex;
 }
+.pagination{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.pagination button{
+    width: 30px;
+    height: 30px;
+    margin: .5rem;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 10px 20px 15px rgba(0,0,0,0.25);
+    cursor: pointer;
+    font-weight: bold;
+}
+.pagination button:hover{
+    background: black;
+    color: white;
+}
+.active{
+    background: black;
+    color: white;
+}
 
 @media (max-width: 1315px){
     .card{
