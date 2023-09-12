@@ -4,6 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player'
 import logo from './97525-code-dark.json'
 
 const Header = () => {
+
     return (
         <div className='header'>
                <div className="header-mobile">

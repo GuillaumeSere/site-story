@@ -36,6 +36,10 @@ import IMG35 from '../../images/35.png'
 import IMG36 from '../../images/36.png'
 import IMG37 from '../../images/37.png'
 import IMG38 from '../../images/38.png'
+import IMG39 from '../../images/39.png'
+import IMG40 from '../../images/40.png'
+import IMG41 from '../../images/41.png'
+import IMG42 from '../../images/42.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -75,6 +79,10 @@ import QR35 from '../../images/QRcode Generate Password.png'
 import QR36 from '../../images/QRcode convertisseur-Devise.png'
 import QR37 from '../../images/QRcode Puissance-4.png'
 import QR38 from '../../images/QRcode React-country.png'
+import QR39 from '../../images/QRcode Galerie3D.png'
+import QR40 from '../../images/QRcode Sudoku.png'
+import QR41 from '../../images/QRcode MasterMind.png'
+import QR42 from '../../images/QRcode Abstarct Gallery.png'
 
 
 const data = [
@@ -382,7 +390,39 @@ const data = [
         git: 'https://github.com/GuillaumeSere/rest-countries-api',
         qr: QR38
     },
+    {
+        id: 39,
+        image: IMG39,
+        title: 'Galerie-3D',
+        demo: 'https://guillaumesere.github.io/galerie3d-abstrait/',
+        git: 'https://github.com/GuillaumeSere/galerie3d-abstrait',
+        qr: QR39
+    },
+    {
+        id: 40,
+        image: IMG40,
+        title: 'Sudoku',
+        demo: 'https://guillaumesere.github.io/Sudoku/',
+        git: 'https://github.com/GuillaumeSere/Sudoku',
+        qr: QR40
+    },
+    {
+        id: 41,
+        image: IMG41,
+        title: 'Master Mind',
+        demo: 'https://guillaumesere.github.io/master-mind/',
+        git: 'https://github.com/GuillaumeSere/master-mind',
+        qr: QR41
+    },
+    {
+        id: 42,
+        image: IMG42,
+        title: 'Galerie Abstrait',
+        demo: 'https://guillaumesere.github.io/abstract-galerie/',
+        git: 'https://github.com/GuillaumeSere/abstract-galerie',
+        qr: QR42
+    },
 ];
 
 
-export default data
+export default data;

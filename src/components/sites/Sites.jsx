@@ -15,7 +15,7 @@ const Sites = () => {
 
     // Fonction pour changer de page
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
+    
     return (
         <>
             <button
