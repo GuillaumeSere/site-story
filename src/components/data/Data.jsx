@@ -40,6 +40,12 @@ import IMG39 from '../../images/39.png'
 import IMG40 from '../../images/40.png'
 import IMG41 from '../../images/41.png'
 import IMG42 from '../../images/42.png'
+import IMG43 from '../../images/43.png'
+import IMG44 from '../../images/44.png'
+import IMG45 from '../../images/45.png'
+import IMG46 from '../../images/46.png'
+import IMG47 from '../../images/47.png'
+import IMG48 from '../../images/48.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -83,6 +89,12 @@ import QR39 from '../../images/QRcode Galerie3D.png'
 import QR40 from '../../images/QRcode Sudoku.png'
 import QR41 from '../../images/QRcode MasterMind.png'
 import QR42 from '../../images/QRcode Abstarct Gallery.png'
+import QR43 from '../../images/QRcode GEO-AIR.png'
+import QR44 from '../../images/QRcode Online-radio.png'
+import QR45 from '../../images/QRcode Cocktail.png'
+import QR46 from '../../images/QRcode Beauvais.png'
+import QR47 from '../../images/QRcode Youtube.png'
+import QR48 from '../../images/QRcode ConvertisseurYoutube.png'
 
 
 const data = [
@@ -421,6 +433,54 @@ const data = [
         demo: 'https://guillaumesere.github.io/abstract-galerie/',
         git: 'https://github.com/GuillaumeSere/abstract-galerie',
         qr: QR42
+    },
+    {
+        id: 43,
+        image: IMG43,
+        title: 'GEO-AIR',
+        demo: 'https://guillaumesere.github.io/GEO-AIR/',
+        git: 'https://github.com/GuillaumeSere/GEO-AIR',
+        qr: QR43
+    },
+    {
+        id: 44,
+        image: IMG44,
+        title: 'Online-Radio',
+        demo: 'https://guillaumesere.github.io/online-radio/',
+        git: 'https://github.com/GuillaumeSere/online-radio',
+        qr: QR44
+    },
+    {
+        id: 45,
+        image: IMG45,
+        title: 'Recettes Cocktails',
+        demo: 'https://cocktails-lilac-one.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/cocktails',
+        qr: QR45
+    },
+    {
+        id: 46,
+        image: IMG46,
+        title: 'Beauvais',
+        demo: 'https://beauvais.vercel.app/tourisme',
+        git: 'https://github.com/GuillaumeSere/beauvais',
+        qr: QR46
+    },
+    {
+        id: 47,
+        image: IMG47,
+        title: 'Clone-Youtube',
+        demo: 'https://guillaumesere.github.io/youtube-clone/',
+        git: 'https://github.com/GuillaumeSere/youtube-clone',
+        qr: QR47
+    },
+    {
+        id: 48,
+        image: IMG48,
+        title: 'Convertisseur YoutubeMP3',
+        demo: 'https://youtube-mp3-mu.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/youtube-mp3',
+        qr: QR48
     },
 ];
 
