@@ -2,13 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
     background: black;
 }
 .link{
     color: white;
-    font-size: 30px;
-    margin: 1rem;
+    font-size: 25px;
+    margin: .5rem;
 }
 .footer-links{
     display: flex;
@@ -17,4 +16,6 @@
 }
 p{
     color: white;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
