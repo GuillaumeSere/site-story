@@ -46,6 +46,10 @@ import IMG45 from '../../images/45.png'
 import IMG46 from '../../images/46.png'
 import IMG47 from '../../images/47.png'
 import IMG48 from '../../images/48.png'
+import IMG49 from '../../images/49.png'
+import IMG50 from '../../images/50.png'
+import IMG51 from '../../images/51.png'
+import IMG52 from '../../images/52.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -95,6 +99,10 @@ import QR45 from '../../images/QRcode Cocktail.png'
 import QR46 from '../../images/QRcode Beauvais.png'
 import QR47 from '../../images/QRcode Youtube.png'
 import QR48 from '../../images/QRcode ConvertisseurYoutube.png'
+import QR49 from '../../images/QRcode AutoMarket.png'
+import QR50 from '../../images/QRcode MuseumOfArt.png'
+import QR51 from '../../images/QRcode RandomCarousel.png'
+import QR52 from '../../images/QRcode CalculRemboursement.png'
 
 
 const data = [
@@ -481,6 +489,38 @@ const data = [
         demo: 'https://youtube-mp3-mu.vercel.app/',
         git: 'https://github.com/GuillaumeSere/youtube-mp3',
         qr: QR48
+    },
+    {
+        id: 49,
+        image: IMG49,
+        title: 'Auto Market',
+        demo: 'https://car-mu-drab.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/car',
+        qr: QR49
+    },
+    {
+        id: 50,
+        image: IMG50,
+        title: 'Museum Of Art',
+        demo: 'https://museum-of-art-seven.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/museum-of-art',
+        qr: QR50
+    },
+    {
+        id: 51,
+        image: IMG51,
+        title: 'Random Image Carousel',
+        demo: 'https://random-image-carousel.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/random-image-carousel',
+        qr: QR51
+    },
+    {
+        id: 52,
+        image: IMG52,
+        title: 'Calcul Remboursement',
+        demo: 'https://calcul-remboursement.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/calcul-remboursement',
+        qr: QR52
     },
 ];
 

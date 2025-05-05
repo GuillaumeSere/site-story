@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './sites.css';
 import { BsArrowRight, BsGithub } from 'react-icons/bs';
 import { MdOutlineHome } from 'react-icons/md';
@@ -6,21 +6,45 @@ import data from '../data/Data';
 
 const Sites = () => {
     const [currentPage, setCurrentPage] = useState(1);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 450);
     const cardsPerPage = 6;
+
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth <= 450);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     // Calculer l'index de début et de fin des cartes à afficher sur la page actuelle
     const indexOfLastCard = currentPage * cardsPerPage;
     const indexOfFirstCard = indexOfLastCard - cardsPerPage;
     const currentCards = data.slice(indexOfFirstCard, indexOfLastCard);
 
-    // Fonction pour changer de page
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
-    
+    const totalPages = Math.ceil(data.length / cardsPerPage);
+
+    // Calcul des pages à afficher pour la pagination
+    const getPageNumbers = () => {
+        if (!isMobile) {
+            return Array.from({ length: totalPages }, (_, i) => i + 1);
+        }
+        // Pour mobile : max 5 numéros, centrés sur la page courante
+        let start = Math.max(currentPage - 2, 1);
+        let end = Math.min(start + 4, totalPages);
+        if (end - start < 4) {
+            start = Math.max(end - 4, 1);
+        }
+        const pages = [];
+        for (let i = start; i <= end; i++) {
+            pages.push(i);
+        }
+        return pages;
+    };
+
     return (
         <>
             <button
                 className='btn-home'
-                onClick={() => paginate(1)}>
+                onClick={() => setCurrentPage(1)}>
                 <MdOutlineHome className='icon' />
             </button>
             <div className='container'>
@@ -42,13 +66,13 @@ const Sites = () => {
             {/* Afficher les boutons de pagination */}
             <div className="pagination">
                 {data.length > cardsPerPage && (
-                    Array.from({ length: Math.ceil(data.length / cardsPerPage) }, (_, index) => (
+                    getPageNumbers().map((pageNumber) => (
                         <button
-                            key={index + 1}
-                            className={currentPage === index + 1 ? 'active' : ''}
-                            onClick={() => paginate(index + 1)}
+                            key={pageNumber}
+                            className={currentPage === pageNumber ? 'active' : ''}
+                            onClick={() => setCurrentPage(pageNumber)}
                         >
-                            {index + 1}
+                            {pageNumber}
                         </button>
                     ))
                 )}
