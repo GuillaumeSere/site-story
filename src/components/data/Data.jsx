@@ -210,7 +210,7 @@ const data = [
         id: 13,
         image: IMG13,
         title: 'Portfolio',
-        demo: 'https://guillaumesere.github.io/guillaume-portfolio/',
+        demo: 'https://guillaume-sere.vercel.app/',
         git: 'https://github.com/GuillaumeSere/guillaume-portfolio',
         qr: QR13
     },
@@ -234,7 +234,7 @@ const data = [
         id: 16,
         image: IMG16,
         title: 'Nasa-Media',
-        demo: 'https://guillaumesere.github.io/nasa-media/',
+        demo: 'https://nasa-media.vercel.app/',
         git: 'https://github.com/GuillaumeSere/nasa-media',
         qr: QR16
     },
@@ -250,7 +250,7 @@ const data = [
         id: 18,
         image: IMG18,
         title: 'APP-SNCF',
-        demo: 'https://guillaumesere.github.io/api-sncf/',
+        demo: 'https://train-sncf.vercel.app/',
         git: 'https://github.com/GuillaumeSere/api-sncf',
         qr: QR18
     },
@@ -258,7 +258,7 @@ const data = [
         id: 19,
         image: IMG19,
         title: 'Live-Radio',
-        demo: 'https://guillaumesere.github.io/radio-browser/',
+        demo: 'https://live-radios.vercel.app/',
         git: 'https://github.com/GuillaumeSere/radio-browser',
         qr: QR19
     },
@@ -346,7 +346,7 @@ const data = [
         id: 30,
         image: IMG30,
         title: 'Candy Crush',
-        demo: 'https://guillaumesere.github.io/candy-crush/',
+        demo: 'https://candy-crush-tan-alpha.vercel.app/',
         git: 'https://github.com/GuillaumeSere/candy-crush',
         qr: QR30
     },
@@ -354,7 +354,7 @@ const data = [
         id: 31,
         image: IMG31,
         title: 'Tetris',
-        demo: 'https://guillaumesere.github.io/react-tetris/',
+        demo: 'https://tetris-60.vercel.app/',
         git: 'https://github.com/GuillaumeSere/react-tetris',
         qr: QR31
     },
@@ -362,7 +362,7 @@ const data = [
         id: 32,
         image: IMG32,
         title: 'Jeux 2048',
-        demo: 'https://guillaumesere.github.io/2048-react/',
+        demo: 'https://2048-alpha-two.vercel.app/',
         git: 'https://github.com/GuillaumeSere/2048-react',
         qr: QR32
     },
@@ -402,7 +402,7 @@ const data = [
         id: 37,
         image: IMG37,
         title: 'Puissance 4',
-        demo: 'https://guillaumesere.github.io/connect-four/',
+        demo: 'https://puissance4-60.vercel.app/',
         git: 'https://github.com/GuillaumeSere/connect-four',
         qr: QR37
     },
@@ -426,7 +426,7 @@ const data = [
         id: 40,
         image: IMG40,
         title: 'Sudoku',
-        demo: 'https://guillaumesere.github.io/Sudoku/',
+        demo: 'https://sudoku-60.vercel.app/',
         git: 'https://github.com/GuillaumeSere/Sudoku',
         qr: QR40
     },
@@ -434,7 +434,7 @@ const data = [
         id: 41,
         image: IMG41,
         title: 'Master Mind',
-        demo: 'https://guillaumesere.github.io/master-mind/',
+        demo: 'https://master-mind-60.vercel.app/',
         git: 'https://github.com/GuillaumeSere/master-mind',
         qr: QR41
     },
@@ -450,7 +450,7 @@ const data = [
         id: 43,
         image: IMG43,
         title: 'GEO-AIR',
-        demo: 'https://guillaumesere.github.io/GEO-AIR/',
+        demo: 'https://geo-air.vercel.app/',
         git: 'https://github.com/GuillaumeSere/GEO-AIR',
         qr: QR43
     },
@@ -458,7 +458,7 @@ const data = [
         id: 44,
         image: IMG44,
         title: 'Online-Radio',
-        demo: 'https://guillaumesere.github.io/online-radio/',
+        demo: 'https://online-radio-60.vercel.app/',
         git: 'https://github.com/GuillaumeSere/online-radio',
         qr: QR44
     },
@@ -498,7 +498,7 @@ const data = [
         id: 49,
         image: IMG49,
         title: 'Auto Market',
-        demo: 'https://car-mu-drab.vercel.app/',
+        demo: 'https://auto-markets.vercel.app/',
         git: 'https://github.com/GuillaumeSere/car',
         qr: QR49
     },
