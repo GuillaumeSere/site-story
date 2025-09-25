@@ -52,6 +52,8 @@ import IMG51 from '../../images/51.png'
 import IMG52 from '../../images/52.png'
 import IMG53 from '../../images/53.png'
 import IMG54 from '../../images/54.png'
+import IMG55 from '../../images/55.png'
+import IMG56 from '../../images/56.png'
 
 import QR1 from '../../images/QRcode Fitness-exercices.png'
 import QR2 from '../../images/QRcode api-crypto.png'
@@ -107,6 +109,9 @@ import QR51 from '../../images/QRcode RandomCarousel.png'
 import QR52 from '../../images/QRcode CalculRemboursement.png'
 import QR53 from '../../images/QRcode Prise-medoc.png'
 import QR54 from '../../images/QRcode Plante water.png'
+import QR55 from '../../images/QRcode Rubik.png'
+import QR56 from '../../images/QRcode Dames.png'
+
 
 
 const data = [
@@ -526,7 +531,7 @@ const data = [
         git: 'https://github.com/GuillaumeSere/calcul-remboursement',
         qr: QR52
     },
-        {
+    {
         id: 53,
         image: IMG53,
         title: 'Prise-Médoc',
@@ -534,13 +539,29 @@ const data = [
         git: 'https://github.com/GuillaumeSere/prise-medoc',
         qr: QR53
     },
-            {
+    {
         id: 54,
         image: IMG54,
         title: 'Plante Water',
         demo: 'https://plantes-water.vercel.app/',
         git: 'https://github.com/GuillaumeSere/plantes-water',
         qr: QR54
+    },
+    {
+        id: 55,
+        image: IMG55,
+        title: "Rubik's Cube",
+        demo: 'https://ruby-cube60.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/ruby-cube',
+        qr: QR55
+    },
+    {
+        id: 56,
+        image: IMG56,
+        title: 'Dames',
+        demo: 'https://dames-3d.vercel.app/',
+        git: 'https://github.com/GuillaumeSere/dame',
+        qr: QR56
     },
 ];
 
